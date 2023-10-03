@@ -38,14 +38,13 @@ const About = () => {
         Having finished my Bachelor in Computer Science, I am currently on the lookout for new opportunities.
         <br />
         <br/>
-        My skills include frontend development, Angular, TypeScript, JavaScript, Python, C++, as well as Go.
+        My skills include frontend development, TypeScript, JavaScript, Python, C++, as well as Go.
         <br />
         <br/>
-        🔘 Completed 3 internships
-        <br/>
-        🔘 Completed 3 internships
+        What I enjoyed recently:
       </motion.p>
       <div className='mt-20 flex flex-wrap gap-10'>
+      
         {services.map((service, index) =>
           (<ServiceCard key={service.title} index={index} {...service} />))}
       </div>

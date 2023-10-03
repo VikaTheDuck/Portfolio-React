@@ -25,57 +25,26 @@ const Contact = () => {
         className='flex-[0.75] bg-black-100 p-8 rounded-2xl'>
         <p className={styles.sectionSubText}>Get in Touch</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
-
-        <form ref={formRef}
-          onSubmit={handleSumit}
-          className='mt-12 flex flex-col gap-8'
-        >
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>
-              Your name
-            </span>
-            <input
-              type='text'
-              name='name'
-              value={form.name}
-              onChange={handleChange}
-              placeholder="What's your name?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium' />
-          </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>
-              Your email
-            </span>
-            <input
-              type='email'
-              name='email'
-              value={form.email}
-              onChange={handleChange}
-              placeholder="What's your email?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium' />
-          </label>
-          <label className='flex flex-col'>
-            <span className='text-white font-medium mb-4'>
-              Your message
-            </span>
-            <textarea
-              rows="7"
-              name='message'
-              value={form.message}
-              onChange={handleChange}
-              placeholder="What do you want to say?"
-              className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outlined-none border-none font-medium' />
-          </label>
-          <button type='submit'
-          className='bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl'>
-            {loading ? 'Sending...' : 'Send'}
-          </button>
-        </form>
-
+        <div style={{ paddingTop: '50px' }}>
+          <p style={{ color: 'gray' }}>Email</p>
+          <hr/>
+          <br/>
+          <a href="mailto:victoria.solodo@gmail.com">
+            victoria.solodo@gmail.com 🔗
+          </a>
+        </div>
+        <div style={{ paddingTop: '50px' }}>
+          <p style={{ color: 'gray' }}>LinkedIn</p>
+          <hr/>
+          <br/>
+          <a href="https://www.linkedin.com/in/victoria-solodovnikova/">
+          Visit my profile🔗
+          </a>
+        </div>
       </motion.div>
       <motion.div variants={slideIn('right', "tween", 0.2, 1)}
-      className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
-        <EarthCanvas/>
+        className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'>
+        <EarthCanvas />
       </motion.div>
     </div>
   )
