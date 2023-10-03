@@ -1,0 +1,7 @@
+Deployment to Github:
+"homepage":"http://vikatheduck.github.io/Portfolio-React",
+
+    "predeploy":"npm run build",
+    "deploy": "gh-pages -d dist", -> dist instead of build cuz using Vite
+
+    npm run deploy -> Deploy it to Github (creates new branch called gh-pages)
