@@ -49,12 +49,12 @@ import {
   
   const technologies = [
     {
-      name: "Python",
-      icon: python,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "Python",
+      icon: python,
     },
     {
       name: "TypeScript",
