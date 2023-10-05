@@ -1,23 +1,17 @@
 import {
     mobile,
-    backend,
-    creator,
     web,
-    javascript,
+    // javascript,
     typescript,
     html,
     css,
     cpp,
-    python,
+    // python,
     git,
     sql,
     go,
     carrent,
     jobit,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
     tripguide,
   } from "../assets";
   
@@ -90,7 +84,6 @@ import {
     {
       title: "Software Engineering Intern",
       company_name: "Index Exchange",
-      icon: starbucks,
       iconBg: "#383E56",
       date: "January 2022 - April 2022",
       points: [
@@ -103,7 +96,6 @@ import {
     {
       title: "Frontend Developer",
       company_name: "American Iron & Metal (AIM)",
-      icon: tesla,
       iconBg: "#E6DEDD",
       date: "January 2021 - January 2022",
       points: [
@@ -116,7 +108,6 @@ import {
     {
       title: "Software Quality Assurance Intern",
       company_name: "Matrox",
-      icon: shopify,
       iconBg: "#383E56",
       date: "Jan 2022 - Jan 2023",
       points: [
