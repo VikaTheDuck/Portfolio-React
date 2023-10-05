@@ -48,14 +48,14 @@ import {
   ];
   
   const technologies = [
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "Python",
-      icon: python,
-    },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
+    // {
+    //   name: "Python",
+    //   icon: python,
+    // },
     {
       name: "TypeScript",
       icon: typescript,

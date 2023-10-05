@@ -15,12 +15,17 @@
 	"nodes":[
 		{
 			"mesh":0,
-			"name":"model1 - Copy"
+			"name":"model1 - Copy - Copy",
+			"scale":[
+				0.527450680732727,
+				0.527450680732727,
+				0.527450680732727
+			]
 		}
 	],
 	"meshes":[
 		{
-			"name":"model1 - Copy",
+			"name":"model1 - Copy - Copy",
 			"primitives":[
 				{
 					"attributes":{
@@ -36,7 +41,7 @@
 		{
 			"bufferView":0,
 			"componentType":5126,
-			"count":583836,
+			"count":96334,
 			"max":[
 				143.8351287841797,
 				538.6453857421875,
@@ -52,7 +57,7 @@
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":583836,
+			"count":96334,
 			"type":"VEC3"
 		},
 		{
@@ -65,26 +70,26 @@
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":7006032,
+			"byteLength":1156008,
 			"byteOffset":0,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteLength":7006032,
-			"byteOffset":7006032,
+			"byteLength":1156008,
+			"byteOffset":1156008,
 			"target":34962
 		},
 		{
 			"buffer":0,
 			"byteLength":2343672,
-			"byteOffset":14012064,
+			"byteOffset":2312016,
 			"target":34963
 		}
 	],
 	"buffers":[
 		{
-			"byteLength":16355736,
+			"byteLength":4655688,
 			"uri":"vika.bin"
 		}
 	]
