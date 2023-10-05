@@ -1,5 +1,7 @@
 # React + Vite
 
+WIP - SOME 3D ASSETS NOT LOADING CORRECTLY IN MOBILE VIEW
+
 Personal Portfolio
 https://vikatheduck.github.io/Portfolio-React/
 
