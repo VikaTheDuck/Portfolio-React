@@ -1,12 +1,12 @@
 import {
     mobile,
     web,
-    // javascript,
+    javascript,
     typescript,
     html,
     css,
     cpp,
-    // python,
+    python,
     git,
     sql,
     go,
@@ -42,14 +42,14 @@ import {
   ];
   
   const technologies = [
-    // {
-    //   name: "JavaScript",
-    //   icon: javascript,
-    // },
-    // {
-    //   name: "Python",
-    //   icon: python,
-    // },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
     {
       name: "TypeScript",
       icon: typescript,
