@@ -1,11 +1,12 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense, useEffect, useState, lazy} from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
 const Computers = ({ isMobile }) => {
-  const computer = useGLTF("./desktop_pc/vika.glb");
+  const computer = useGLTF("./desktop_pc/scene.gltf?v=1.0");
+  console.log("Computer GLTF:", computer);
 
   return (
     <mesh>
@@ -29,9 +30,10 @@ const Computers = ({ isMobile }) => {
       <pointLight intensity={0.5} />
       <primitive
         object={computer.scene}
-        scale={isMobile ? 0.025: 0.045}
-        position={isMobile ? [0, -2.5, 0] : [0, -4.25, 0]}
-        rotation={[0,190,0]}
+        //scale={isMobile ? 0.025: 0.045}
+        scale={isMobile ? 1: 2}
+        position={isMobile ? [0, -0.5, 0] : [0, -1, 0]}
+        rotation={[0,0,0]}
       />
     </mesh>
   );
